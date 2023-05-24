@@ -8,10 +8,24 @@ erl_crash.dump
 # rebar 2.x
 .rebar
 rel/example_project
-ebin/*.beam
 deps
 
 # rebar 3
 .rebar3
 _build/
 _checkouts/
+
+_*
+*.swp
+*.swo
+.erlang.cookie
+ebin
+log
+logs
+.idea
+*.iml
+rebar3.crashdump
+*~
+
+.env
+*.dets
